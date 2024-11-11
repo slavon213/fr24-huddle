@@ -89,7 +89,7 @@ header h1 {
     line-height: 60px;
 }
 
-header section  {
+header section {
     margin-block-end: 72px;
 }
 
@@ -108,4 +108,32 @@ header section  {
     border-radius: 28px;
     background: #ff52c1;
     box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
+}
+
+main section {
+    height: 440px;
+    padding-inline-start: 120px;
+    padding-inline-end: 30px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 40px;
+}
+
+main section div {
+    width: 490px;
+}
+
+main section h3 {
+    margin-block-end: 16px;
+    font-size: 28px;
+}
+
+main section p {
+    color: #808e9a;
+    font-size: 18px;
+    line-height: 27px;
 }
