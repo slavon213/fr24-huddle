@@ -191,15 +191,14 @@ footer {
 }
 
 footer {
-    height: 620px;
     color: #fff;
     padding-block-start: 144px;
 }
 
 div.footer-flx {
     align-items: flex-start;
+    height: 100%;
 }
-
 
 footer section img {
     margin-block-end: 32px;
@@ -212,20 +211,33 @@ div.footer-contacts ul {
     row-gap: 17px;
 }
 
+div.footer-contacts ul li:nth-child(1) {
+    background-image: url(../images/icon-location.svg);
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    padding-inline-start: 40px;
+}
+
+div.footer-contacts ul li:nth-child(2) {
+    background-image: url(../images/icon-phone.svg);
+    background-repeat: no-repeat;
+    padding-inline-start: 40px;
+}
+div.footer-contacts ul li:nth-child(3) {
+    background-image: url(../images/icon-email.svg);
+    background-repeat: no-repeat;
+    padding-inline-start: 40px;
+}
 
 footer div.footer-menu ul {
     font-size: 14px;
     line-height: 27px;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
     row-gap: 12px;
-    
 }
 
 footer div.footer-contacts {
-    /* width: 339px; */
     font-size: 14px;
     line-height: 24px;
 }
@@ -233,4 +245,8 @@ footer div.footer-contacts {
 footer div.footer-copyright {
     color: #fff;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 154px;
 }
