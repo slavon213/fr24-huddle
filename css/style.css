@@ -1,0 +1,30 @@
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-variation-settings: "wdth" 100;
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-variation-settings: "wdth" 100;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+*,
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 1270px;
+}
+
