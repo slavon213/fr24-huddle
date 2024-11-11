@@ -20,7 +20,7 @@
 html,
 body {
     height: 100%;
-    color: #00252E;
+    color: #00252e;
 }
 
 *,
@@ -43,6 +43,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
 
 .container {
@@ -76,4 +81,12 @@ header div.logo a {
     box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.1);
 }
 
+header h1 {
+    width: 536px;
+    font-size: 40px;
+    line-height: 60px; 
+}
 
+.logo {
+    margin-block-end: 71px;
+}
