@@ -45,7 +45,9 @@ a {
     align-items: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
@@ -62,13 +64,13 @@ h1, h2, h3 {
 }
 
 header {
-    /* height: 800px; */
-    height: 100vh;
+    height: 800px;
     background-image: url("../images/hero_bg.svg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #edfbff;
     padding-block-start: 50px;
+    margin-block-end: 50px;
 }
 
 header div.logo a {
@@ -84,9 +86,26 @@ header div.logo a {
 header h1 {
     width: 536px;
     font-size: 40px;
-    line-height: 60px; 
+    line-height: 60px;
 }
 
-.logo {
-    margin-block-end: 71px;
+header section  {
+    margin-block-end: 72px;
+}
+
+.build {
+    width: 536px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.build a {
+    width: 280px;
+    height: 56px;
+    flex-shrink: 0;
+
+    border-radius: 28px;
+    background: #ff52c1;
+    box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
 }
