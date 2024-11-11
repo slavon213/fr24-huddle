@@ -135,6 +135,10 @@ main section {
     margin-block-end: 40px;
 }
 
+main section:last-of-type {
+    margin-block-end: 344px;
+}
+
 main section div {
     width: 490px;
 }
@@ -191,7 +195,6 @@ footer {
     height: 620px;
     color: #fff;
     padding-block-start: 144px;
-    margin-block-start: 344px;
 }
 
 footer section img {
