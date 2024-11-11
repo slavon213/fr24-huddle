@@ -64,9 +64,9 @@ h3 {
 }
 
 header {
-    height: 800px;
+    height: 741px;
     background-image: url("../images/hero_bg.svg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-color: #edfbff;
     padding-block-start: 50px;
