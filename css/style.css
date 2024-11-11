@@ -17,14 +17,63 @@
     font-weight: 600;
 }
 
-*,
 html,
 body {
+    height: 100%;
+    color: #00252E;
+}
+
+*,
+html,
+body,
+h1,
+h1,
+h1,
+h4,
+h5,
+h6,
+p {
     box-sizing: border-box;
     margin: 0;
 }
 
-.container {
-    width: 1270px;
+a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.container {
+    max-width: 1270px;
+    margin-inline: auto;
+}
+
+.flx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    /* height: 800px; */
+    height: 100vh;
+    background-image: url("../images/hero_bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #edfbff;
+    padding-block-start: 50px;
+}
+
+header div.logo a {
+    text-align: center;
+    width: 200px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.1);
+}
+
 
