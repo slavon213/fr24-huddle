@@ -145,6 +145,25 @@ main section div {
     width: 490px;
 }
 
+main section div.image {
+    height: 420px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.image-1 {
+    background-image: url("../images/illustration-grow-together.svg");
+}
+
+div.image-2 {
+    background-image: url("../images/illustration-flowing-conversation.svg");
+}
+
+div.image-3 {
+    background-image: url("../images/illustration-your-users.svg");
+}
+
 main section h3 {
     margin-block-end: 16px;
     font-size: 28px;
