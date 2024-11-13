@@ -218,7 +218,12 @@ div.footer-flx {
     align-items: flex-start;
 }
 
-footer section img {
+
+div.footer-logo {
+    height: 24px;
+    background-image: url("../images/logo-white.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     margin-block-end: 32px;
 }
 
