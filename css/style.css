@@ -82,7 +82,6 @@ header {
     background-repeat: no-repeat;
     background-color: #edfbff;
     padding-block-start: 50px;
-    margin-block-end: 160px;
 }
 
 header div.logo a {
@@ -122,6 +121,12 @@ header section {
     box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
 }
 
+
+main {
+    padding-block-start: 160px;
+    padding-block-end: 344px;
+}
+
 main section {
     height: 440px;
     padding-inline-start: 120px;
@@ -135,9 +140,6 @@ main section {
     margin-block-end: 40px;
 }
 
-main section:last-of-type {
-    margin-block-end: 344px;
-}
 
 main section div {
     width: 490px;
