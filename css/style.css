@@ -146,7 +146,7 @@ main section div {
 }
 
 main section div.image {
-    height: 420px;
+    height: 320px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
