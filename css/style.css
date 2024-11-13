@@ -270,7 +270,6 @@ footer div.footer-copyright {
     height: 154px;
 }
 
-
 footer div.socials ul {
     display: flex;
     justify-content: flex-start;
@@ -284,19 +283,6 @@ footer div.socials a {
     background-repeat: no-repeat;
 }
 
-
-.fbook {
-     background-image: url("../images/logo-facebook.svg");
-}
-
-.fbook svg:hover path {
+footer div.socials a:hover svg path {
     fill: #ff52c1;
 }
-
-.twitter a {
-     background-image: url("../images/logo-twitter.svg");
-}
-.instagram a {
-     background-image: url("../images/logo-instagram.svg");
-}
-
