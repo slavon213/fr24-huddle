@@ -303,6 +303,12 @@ footer div.socials a {
     background-repeat: no-repeat;
 }
 
+
+footer div.socials a:hover svg path {
+    transition: .5s;
+}
+
+
 footer div.socials a:hover svg path {
     fill: #ff52c1;
 }
